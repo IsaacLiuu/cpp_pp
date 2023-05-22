@@ -14,9 +14,12 @@ enable_testing()
 # add_executable(project_11_2
 #                 mytime2.cpp
 #                 usetime2.cpp)
-add_executable(project_11_3
-                mytime3.cpp
-                usetime3.cpp)
+# add_executable(project_11_3
+#                 mytime3.cpp
+#                 usetime3.cpp)
+add_executable(project_11_5
+                vector.cpp
+                randwalk.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
