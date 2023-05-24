@@ -70,4 +70,5 @@ int main(void)
         cout << "No input! Bye.\n";
     }
 
+    return 0;
 }
